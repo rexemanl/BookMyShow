@@ -28,6 +28,7 @@ public class BookMyShowApplication implements CommandLineRunner {
         request.setPassword("rexemanl007");
 
         //this is a test comment
+        //this is a develop branch commit
         SignUpResponseDTO responseDTO = userController.signUp(request);
     }
 }
