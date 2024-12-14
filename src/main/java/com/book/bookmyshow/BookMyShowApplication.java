@@ -27,6 +27,7 @@ public class BookMyShowApplication implements CommandLineRunner {
         request.setEmail("rexemanl007@gmail.com");
         request.setPassword("rexemanl007");
 
+        //this is a test comment
         SignUpResponseDTO responseDTO = userController.signUp(request);
     }
 }

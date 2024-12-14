@@ -36,6 +36,7 @@ public class BookingController {
             response.setBookingId(booking.getId());
             response.setAmount(booking.getAmount());
             response.setResponseStatus(ResponseStatus.SUCCESS);
+            System.out.println(ResponseStatus.SUCCESS);
 
         } catch (Exception e) {
             throw new RuntimeException(e);
